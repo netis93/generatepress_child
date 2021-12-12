@@ -1,0 +1,62 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+
+/*column for contact form 7*/
+.one-half,
+.one-third {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+        margin-bottom: 20px;
+}
+ 
+.one-half { width: 48%; }
+.one-third { width: 30.66%; }
+ 
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+.last-block {
+	width:80%;
+	position: relative;
+}
+@media only screen and (max-width: 767px) {
+    .one-half, .one-third {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/*end of column for contact form 7*/
+
+
+.input-text {
+	color: #F05C2D !important;
+    background-color: #fff !important;
+    border-color: #F05C2D !important;
+	width:100%;
+}
+
+.woocommerce-form-login {
+	border-color:#F05C2D !important;
+	border: 1px solid;
+	padding:40px;
+	border-radius:20px ;
+	width:60%;
+}
+
+.custom-addon-quote {
+	width:60%;
+}
+
+
+
